@@ -1,0 +1,29 @@
+
+.footerContent{
+    height:7rem; 
+    background: #152226;
+    color: #fff;
+    
+    div{
+        width:940px;
+        margin:0 auto; 
+        padding: 1rem 3rem;
+        color:#fff;
+    }
+    
+    p{
+
+        margin-bottom: 1rem;
+    }
+
+    svg{
+        display: inline-block;
+        height:25px; 
+        width:25px;
+
+        & + svg{
+            margin-left: 1rem;
+        }
+
+    }
+}
